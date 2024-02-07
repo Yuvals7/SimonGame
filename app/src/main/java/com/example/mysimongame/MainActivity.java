@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = findViewById(R.id.textView);
 
         long timerDuration = TimeUnit.MINUTES.toMillis(3);
-        long ticksInterval = 10;
+        long ticksInterval = 100;
 
         new CountDownTimer(timerDuration, ticksInterval) {
             long millis = 1000;
